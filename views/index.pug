@@ -1,0 +1,61 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  meta(http-equiv='x-ua-compatible' content='ie=edge')
+
+  title IBM Cloud Satellite 🛸
+
+  link(rel='stylesheet' href='https://use.typekit.net/skn8ash.css')
+  link(rel='stylesheet' href='./style.css')
+  link(href='https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap' rel='stylesheet')
+  link(href='https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap' rel='stylesheet')
+
+  style.
+    html,
+    body,
+    header,
+    @media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+    height: 1000px;
+    }
+    }
+    @media (min-width: 800px) and (max-width: 1030px) {
+    html,
+    body,
+    header,
+    .view  {
+    height: 650px;
+    }
+    }
+    .top-nav-collapse {
+    background-color: #929fba !important;
+    }
+    .navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+    }
+    @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+    background: #929fba !important;
+    }
+    }
+    @media (max-width: 450px) {
+    .margins {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    }
+    }
+
+h1
+  | Tokyo to London.
+.response
+    button.neu(type='submit', onclick='getResponseTime()')
+        span Send Request
+
+div#content
+
+script(src='./collect.js')
+
