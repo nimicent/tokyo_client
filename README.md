@@ -10,7 +10,7 @@ Log into IBM Cloud using the CLI with the command `ibmcloud login --apikey='YOUR
 
 If you don't know your IAM token, you can get your IAM Token for IBM Cloud by typing the command (after logging in) `ibmcloud iam oauth-tokens`.
 
-Place the live URL of the site you wish to test response time of into LOCATION and LOCATION_2.
+Place the live URL of the site you wish to test response time of into `LOCATION` and `LOCATION_2` for your .env file.
 
 Do `npm i` to install the necessary packages.
 
