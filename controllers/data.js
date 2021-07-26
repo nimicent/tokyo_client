@@ -18,9 +18,7 @@ let configT = {
   url: process.env.LOCATION_2,
   headers: { 
     'accept': 'application/json', 
-    'Authorization': process.env.TOKEN,
-    'X-Auth-Resource-Group': process.env.AUTH_GROUP, 
-    'Cookie': process.env.COOKIE
+    'Authorization': process.env.TOKEN
   }
 };
 
@@ -31,9 +29,7 @@ let configL = {
   url: process.env.LOCATION,
   headers: { 
     'accept': 'application/json', 
-    'Authorization': process.env.TOKEN,
-    'X-Auth-Resource-Group': process.env.AUTH_GROUP, 
-    'Cookie': process.env.COOKIE
+    'Authorization': process.env.TOKEN
   }
 };
 
