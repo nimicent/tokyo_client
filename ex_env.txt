@@ -1,0 +1,9 @@
+NODE_ENV=development
+PORT=8000
+LOCATION=Tokyo
+AUTH_GROUP=
+COOKIE=
+LOCATION_2=London
+TOKEN=
+
+
